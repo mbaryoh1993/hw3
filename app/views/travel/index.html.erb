@@ -1,12 +1,9 @@
+<% places = ["Mexico City", "Charleston", "Beijing", "Amsterdam"] %>
+
 <h1>Places I've Been</h1>
 
 <ul>
-<li><a href="">Mexico City</a></li>
-<li><a href="">Charleston</a></li>
-<li><a href="">Beijing</a></li>
-<li><a href="">Amsterdam</a></li>
+<% for place in places %>
+<li><%= place %></li>
+<% end %>
 </ul>
-
-<p>
-<a href="">New Company</a>
-</p>
