@@ -1,6 +1,6 @@
 class TravelController < ApplicationController
   end
 
-  def new
+  def index
     travel = travel.new
   end
