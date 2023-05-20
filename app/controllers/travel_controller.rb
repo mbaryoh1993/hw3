@@ -1,2 +1,6 @@
 class TravelController < ApplicationController
-end
+  end
+
+  def new
+    travel = travel.new
+  end

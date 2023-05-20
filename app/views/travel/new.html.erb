@@ -1,0 +1,11 @@
+<%= form_with :model => @travel do |form| %>
+  <p>
+    <%= form.label "name" %>
+    <%= form.text_field "name" %>
+  </p>
+  <p>
+    <%= form.label "post" %>
+    <%= form.text_field "post" %>
+  </p>
+  <%= form.submit %>
+<% end %>
